@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "patchName": "Translations for YouTube Music",
+    "options": [
+      {
+        "key": "SelectedTranslations",
+        "value": "fr-rFR"
+      },
+      {
+        "key": "SelectedStringResources",
+        "value": "fr"
+      }
+    ]
+  },
+  {
+    "patchName": "Translations for YouTube",
+    "options": [
+      {
+        "key": "SelectedTranslations",
+        "value": "fr-rFR"
+      },
+      {
+        "key": "SelectedStringResources",
+        "value": "fr"
+      }
+    ]
+  }
+]
