@@ -8,8 +8,10 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 [YT Music Extended]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
+patches-version = "v4.10.2-dev.1"
 integrations-source = "inotia00/revanced-integrations"
-rv-brand = "inotia00 ReVanced"
+integrations-version = "v1.11.2-dev.1"
+rv-brand = "ReVanced Extended"
 arch = "arm64-v8a"
 build-mode = "both"
 included-patches = "'Hide player overlay filter'"
@@ -18,8 +20,10 @@ excluded-patches = "'Amoled' 'Custom branding icon for YouTube Music' 'Custom br
 [YouTube Extended]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
+patches-version = "v4.10.2-dev.1"
 integrations-source = "inotia00/revanced-integrations"
-rv-brand = "inotia00 ReVanced"
+integrations-version = "v1.11.2-dev.1"
+rv-brand = "ReVanced Extended"
 build-mode = "both"
 included-patches = "'Visual preferences icons'"
 excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
