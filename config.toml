@@ -5,29 +5,29 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-[YT Music Extended]
+# ReVanced Extended
+[YT-Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 patches-version = "v4.10.2-dev.1"
 integrations-source = "inotia00/revanced-integrations"
 integrations-version = "v1.11.2-dev.1"
-rv-brand = "ReVanced Extended"
 arch = "arm64-v8a"
 build-mode = "both"
 included-patches = "'Hide player overlay filter'"
 excluded-patches = "'Amoled' 'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 
-[YouTube Extended]
+[YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 patches-version = "v4.10.2-dev.1"
 integrations-source = "inotia00/revanced-integrations"
 integrations-version = "v1.11.2-dev.1"
-rv-brand = "ReVanced Extended"
 build-mode = "both"
 included-patches = "'Visual preferences icons'"
 excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
 
+# ReVanced
 [YT Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
