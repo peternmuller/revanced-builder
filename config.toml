@@ -17,7 +17,7 @@ build-mode = "both"
 included-patches = "'Hide player overlay filter'"
 excluded-patches = "'Amoled' 'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 
-[YouTube]
+[YouTube-Extended]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 patches-version = "v4.10.2-dev.1"
