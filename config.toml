@@ -23,3 +23,13 @@ rv-brand = "inotia00 ReVanced"
 build-mode = "both"
 included-patches = "'Visual preferences icons'"
 excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
+
+[YT Music]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+arch = "arm64-v8a"
+build-mode = "both"
+
+[YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+build-mode = "both"
+excluded-patches = "'Theme'"
