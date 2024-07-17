@@ -12,7 +12,8 @@ patches-source = "inotia00/revanced-patches"
 patches-version = "v4.10.2-dev.2"
 integrations-source = "inotia00/revanced-integrations"
 integrations-version = "v1.11.2-dev.2"
-arch = "arm64-v8a"
+rv-brand = "ReVanced Extended"
+arch = "both"
 build-mode = "both"
 included-patches = "'Hide player overlay filter'"
 excluded-patches = "'Amoled' 'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
@@ -30,7 +31,7 @@ excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for You
 # ReVanced
 [YT-Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-arch = "arm64-v8a"
+arch = "both"
 build-mode = "both"
 
 [YouTube]
