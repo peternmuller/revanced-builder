@@ -21,12 +21,12 @@ This ReVanced Builder creates both APKs and [Magisk](https://github.com/topjohnw
 ## Building Locally
 ### On Termux
 ```console
-bash <(curl -sSf https://raw.githubusercontent.com/j-hc/revanced-magisk-module/main/build-termux.sh)
+bash <(curl -sSf https://raw.githubusercontent.com/peternmuller/revanced-builder/main/build-termux.sh)
 ```
 
 ### On Desktop
 ```console
-git clone https://github.com/j-hc/revanced-magisk-module
-cd revanced-magisk-module
+git clone https://github.com/peternmuller/revanced-builder
+cd revanced-builder
 ./build.sh
 ```
