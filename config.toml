@@ -1,9 +1,4 @@
-enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
-
-# add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-
-# you can use rvmm-config-gen to generate a config
+enable-magisk-update = true
 
 # ReVanced Extended
 [YT-Music-Extended]
@@ -22,6 +17,7 @@ integrations-source = "inotia00/revanced-integrations"
 build-mode = "both"
 included-patches = "'Visual preferences icons'"
 excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
+
 
 # ReVanced
 [YT-Music]
