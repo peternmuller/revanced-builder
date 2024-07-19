@@ -1,6 +1,6 @@
 {
   "version": "v19.16.39",
-  "versionCode": 3,
-  "zipUrl": "https://github.com/Skallr2/revanced-builder/releases/download/3/youtube-extended-revanced-magisk-v19.16.39-all.zip",
-  "changelog": "https://raw.githubusercontent.com/Skallr2/revanced-builder/update/build.md"
+  "versionCode": 1,
+  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/1/youtube-extended-revanced-magisk-v19.16.39-all.zip",
+  "changelog": "https://raw.githubusercontent.com/peternmuller/revanced-builder/update/build.md"
 }
