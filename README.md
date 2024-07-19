@@ -27,7 +27,7 @@ You can easily update the ReVanced apps from this builder by using [Obtainium](h
 <img width="2160" alt="obtainium_quick_tutorial" src="https://github.com/user-attachments/assets/3f0af16e-328e-4831-99c5-9253192403c7">
 
 > [!NOTE]
-> In step three, you need to enter the regular expression that corresponds to the application you want to install:
+> In step 5, you need to enter the regular expression that corresponds to the application you want to install:
 > - YouTube ReVanced: `youtube-revanced`
 > - YouTube ReVanced Extended: `youtube-extended-revanced`
 > - YouTube Music ReVanced: `yt-music-revanced`
