@@ -40,11 +40,11 @@ I personally like my YouTube and YouTube Music applications to be as close as po
 
 ## Building Locally
 ### On Termux
-```console
+```bash
 bash <(curl -sSf https://raw.githubusercontent.com/peternmuller/revanced-builder/main/build-termux.sh)
 ```
 ### On Desktop
-```console
+```bash
 git clone https://github.com/peternmuller/revanced-builder
 cd revanced-builder
 ./build.sh
