@@ -118,8 +118,8 @@ ui_print "* Setting Permissions"
 set_perm "$MODPATH/base.apk" 1000 1000 644 u:object_r:apk_data_file:s0
 
 ui_print "* Mounting $PKG_NAME"
-mkdir -p "$NVBASE/rvhc"
-RVPATH=$NVBASE/rvhc/${MODPATH##*/}.apk
+mkdir -p "$NVBASE/rvpnm"
+RVPATH=$NVBASE/rvpnm/${MODPATH##*/}.apk
 mv -f "$MODPATH/base.apk" "$RVPATH"
 
 if ! op=$(mm mount -o bind "$RVPATH" "$BASEPATH/base.apk" 2>&1); then
@@ -138,5 +138,5 @@ for s in "uninstall.sh" "service.sh"; do
 done
 
 ui_print "* Done"
-ui_print "  by j-hc (github.com/j-hc)"
+ui_print "  by Peter (github.com/peternmuller)"
 ui_print " "
