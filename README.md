@@ -2,8 +2,8 @@
 
 # Welcome to my ReVanced Builder!
 [![CI](https://github.com/peternmuller/revanced-builder/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/peternmuller/revanced-builder/actions/workflows/ci.yml)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-red.svg)](https://github.com/peternmuller/revanced-builder?tab=GPL-3.0-1-ov-file)
-[![Downloads](https://img.shields.io/github/downloads/peternmuller/revanced-builder/total)](https://github.com/peternmuller/revanced-builder/releases)
+[![GitHub License](https://img.shields.io/github/license/peternmuller/revanced-builder?logo=gnu&label=License&link=https%3A%2F%2Fgithub.com%2Fpeternmuller%2Frevanced-builder%3Ftab%3DGPL-3.0-1-ov-file)](https://github.com/peternmuller/revanced-builder?tab=GPL-3.0-1-ov-file)
+[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/peternmuller/revanced-builder/total?logo=Bookmeter&logoColor=white&label=Downloads&link=https%3A%2F%2Fgithub.com%2Fpeternmuller%2Frevanced-builder%2Freleases)](https://github.com/peternmuller/revanced-builder/releases)
 
 This ReVanced Builder creates both APKs and [Magisk](https://github.com/topjohnwu/Magisk)/[KernelSU](https://github.com/tiann/KernelSU) modules for [ReVanced](https://github.com/ReVanced) and [ReVanced Extended](https://github.com/inotia00/revanced-patches) versions of YouTube and YouTube Music.
 
