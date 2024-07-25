@@ -118,8 +118,13 @@ ui_print "* Setting Permissions"
 set_perm "$MODPATH/base.apk" 1000 1000 644 u:object_r:apk_data_file:s0
 
 ui_print "* Mounting $PKG_NAME"
+<<<<<<< HEAD
 mkdir -p "$NVBASE/rvpnm"
 RVPATH=$NVBASE/rvpnm/${MODPATH##*/}.apk
+=======
+mkdir -p "/data/adb/rvpnm"
+RVPATH=/data/adb/rvpnm/${MODPATH##*/}.apk
+>>>>>>> ecd919d (module: remove NVBASE)
 mv -f "$MODPATH/base.apk" "$RVPATH"
 
 if ! op=$(mm mount -o bind "$RVPATH" "$BASEPATH/base.apk" 2>&1); then
@@ -132,10 +137,6 @@ nohup cmd package compile --reset "$PKG_NAME" >/dev/null 2>&1 &
 
 ui_print "* Cleanup"
 rm -rf "${MODPATH:?}/bin" "$MODPATH/$PKG_NAME.apk"
-
-for s in "uninstall.sh" "service.sh"; do
-	sed -i "2 i\NVBASE=${NVBASE}" "$MODPATH/$s"
-done
 
 ui_print "* Done"
 ui_print "  by Peter (github.com/peternmuller)"

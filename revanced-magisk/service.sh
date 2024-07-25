@@ -1,6 +1,10 @@
 #!/system/bin/sh
 MODDIR=${0%/*}
+<<<<<<< HEAD
 RVPATH=$NVBASE/rvpnm/${MODDIR##*/}.apk
+=======
+RVPATH=/data/adb/rvpnm/${MODDIR##*/}.apk
+>>>>>>> ecd919d (module: remove NVBASE)
 . "$MODDIR/config"
 
 until [ "$(getprop sys.boot_completed)" = 1 ]; do sleep 1; done
