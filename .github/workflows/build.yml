@@ -135,7 +135,6 @@ jobs:
           ${BODY}
 
           *▼ Download Links:*
-          
           *Modules:*
           ${MODULES}
 
@@ -143,6 +142,8 @@ jobs:
           ${APKS}
 
           *By @peternoz*
+
+          *[🌟 Check out my Builder Source 🌟](https://github.com/peternmuller/revanced-builder)*
           "
           echo "'$MSG'"
           MSG=${MSG:0:9450}
