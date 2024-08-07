@@ -143,7 +143,8 @@ jobs:
 
           *By @peternoz*
 
-          *[🌟 Check out my Builder Source 🌟](https://github.com/peternmuller/revanced-builder)*
+          *🌟 Check out my builder source:*
+          https://github.com/peternmuller/revanced-builder
           "
           echo "'$MSG'"
           MSG=${MSG:0:9450}
