@@ -48,7 +48,7 @@ else
 		cd ..
 		cp -f revanced-builder/config.toml .
 		rm -rf revanced-builder
-		git clone https://github.com/j-hc/revanced-builder --recurse --depth 1
+		git clone https://github.com/peternmuller/revanced-builder --recurse --depth 1
 		mv -f config.toml revanced-builder/config.toml
 		cd revanced-builder
 	fi
