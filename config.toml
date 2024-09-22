@@ -1,7 +1,6 @@
 enable-magisk-update = true
 
 # ReVanced Extended
-
 [YouTube-Extended]
 app-name = "YouTube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"

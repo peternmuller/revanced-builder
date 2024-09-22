@@ -56,7 +56,7 @@ cd revanced-builder
 - [j-hc](https://github.com/j-hc) for creating this amazing builder.
 - [Kevinr99089](https://github.com/kevinr99089) for providing assistance with the builder.
 - [KitsunedFox](https://github.com/KitsunedFox) for the idea of the Obtainium tutorial.
-- And of course, the [ReVanced](https://github.com/ReVanced) team and [inotia00](https://github.com/inotia00) for their work on the ReVanced apps!
+- And of course, the [ReVanced](https://github.com/ReVanced) team, [inotia00](https://github.com/inotia00) and [anddea](https://github.com/anddea) for their work on the ReVanced apps!
 
 ## License
     Copyright (C) 2024  Peter Noël Muller
