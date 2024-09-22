@@ -1,9 +1,24 @@
 enable-magisk-update = true
 
 # ReVanced Extended
+
+[YouTube-Extended]
+app-name = "YouTube"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+uptodown-dlurl = "https://youtube.uptodown.com/android"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+included-patches = "'Visual preferences icons'"
+excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
+
 [YT-Music-Extended]
 app-name = "YT-Music"
+module-prop-name = "YT Music ReVanced Extended"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+uptodown-dlurl = "https://youtube-music.uptodown.com/android"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
@@ -13,24 +28,38 @@ build-mode = "both"
 included-patches = "'Hide player overlay filter'"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 
-[YouTube-Extended]
+# ReVanced anddea
+[YouTube-anddea]
 app-name = "YouTube"
+module-prop-name = "YouTube ReVanced anddea"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
+uptodown-dlurl = "https://youtube.uptodown.com/android"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+rv-brand = "ReVanced anddea"
 build-mode = "both"
-included-patches = "'Visual preferences icons'"
-excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
 
-
-# ReVanced
-[YT-Music]
+[YT-Music-anddea]
+app-name = "YT-Music"
+module-prop-name = "YT Music ReVanced anddea"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+uptodown-dlurl = "https://youtube-music.uptodown.com/android"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+rv-brand = "ReVanced anddea"
 arch = "arm64-v8a"
 build-mode = "both"
+included-patches = "'Hide player overlay filter'"
 
+# ReVanced
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+uptodown-dlurl = "https://youtube.uptodown.com/android"
+build-mode = "both"
+
+[YT-Music]
+module-prop-name = "YT Music ReVanced"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+uptodown-dlurl = "https://youtube-music.uptodown.com/android"
+arch = "arm64-v8a"
 build-mode = "both"
