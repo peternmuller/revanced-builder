@@ -34,6 +34,8 @@ You can easily update the ReVanced apps from this builder by using [Obtainium](h
 > - YouTube Music ReVanced: `yt-music-revanced-v`
 > - YouTube ReVanced Extended: `youtube-revanced-extended`
 > - YouTube Music ReVanced Extended: `yt-music-revanced-extended`
+> - YouTube ReVanced anddea: `youtube-revanced-anddea`
+> - YouTube Music ReVanced anddea: `yt-music-revanced-anddea`
 
 ## Import custom settings in ReVanced applications
 I personally like my YouTube and YouTube Music applications to be as close as possible to the original look, but less cluttered, easier and less annoying to use. If this is also the case for you, I highly recommend importing [my custom settings files](https://github.com/peternmuller/revanced-builder/tree/main/custom-settings).
