@@ -30,7 +30,7 @@ excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding na
 
 # ReVanced anddea
 [YouTube-anddea]
-app-name = "YouTube-anddea"
+app-name = "YouTube"
 module-prop-name = "YouTube ReVanced anddea"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.uptodown.com/android"
@@ -41,7 +41,7 @@ rv-brand = "ReVanced anddea"
 build-mode = "both"
 
 [YT-Music-anddea]
-app-name = "YT-Music-anddea"
+app-name = "YT-Music"
 module-prop-name = "YT Music ReVanced anddea"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 uptodown-dlurl = "https://youtube-music.uptodown.com/android"
