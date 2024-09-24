@@ -82,13 +82,13 @@ get_rv_prebuilts() {
 			name=$(jq -r .name <<<"$asset")
 			file="${dir}/${name}"
 			gh_dl "$file" "$url" >&2 || return 1
+			if [ "$tag" = "Integrations" ]; then integs_file=$file; fi
 		else
 			name=$(basename "$file")
 			tag_name=$(cut -d'-' -f3- <<<"$name")
 			tag_name=v${tag_name%.*}
 			if [ "$tag_name" = "v" ]; then abort; fi
 		fi
-		if [ "$tag" = "Integrations" ] && [ ! -f "$file" ]; then integs_file=$file; fi
 
 		echo "$tag: $(cut -d/ -f1 <<<"$src")/${name}  " >>"${cl_dir}/changelog.md"
 		echo -n "$file "
