@@ -88,7 +88,6 @@ get_rv_prebuilts() {
 			tag_name=v${tag_name%.*}
 			if [ "$tag_name" = "v" ]; then abort "wrong ver"; fi
 		fi
-		if [ "$tag" = "Integrations" ] && [ ! -f "$file" ]; then integs_file=$file; fi
 
 		echo -n "$file "
 		if [ "$tag" = "Patches" ]; then
