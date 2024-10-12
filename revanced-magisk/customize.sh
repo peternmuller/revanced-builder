@@ -17,7 +17,7 @@ elif [ "$ARCH" = "x86" ]; then
 elif [ "$ARCH" = "x64" ]; then
 	ARCH_LIB=x86_64
 else abort "ERROR: unreachable: ${ARCH}"; fi
-RVPATH=/data/adb/rvhc/${MODPATH##*/}.apk
+RVPATH=/data/adb/rvpnm/${MODPATH##*/}.apk
 
 set_perm_recursive "$MODPATH/bin" 0 0 0755 0777
 
