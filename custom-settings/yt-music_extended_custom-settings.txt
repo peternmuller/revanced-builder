@@ -1,6 +1,7 @@
 "bypass_image_region_restrictions": true,
 "default_video_quality_wifi": 2160,
 "disable_auto_captions": true,
+"disable_cairo_splash_animation": true,
 "disable_dislike_redirection": true,
 "enable_compact_dialog": false,
 "enable_landscape_mode": true,
