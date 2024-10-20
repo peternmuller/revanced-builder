@@ -1,6 +1,9 @@
 #!/system/bin/sh
 {
 	MODDIR=${0%/*}
-	rm "/data/adb/rvpnm/${MODDIR##*/}".apk
+	. "$MODDIR/config"
+
+	rm "/data/adb/rvpnm/${MODDIR##*/}.apk"
 	rmdir "/data/adb/rvpnm"
+	rm "/data/adb/post-fs-data.d/$PKG_NAME-uninstall.sh"
 } &
