@@ -598,7 +598,7 @@ MODULE_ARCH=$ma" >"$1/config"
 module_prop() {
 	echo "id=${1}
 name=${2}
-version=${3}
+version=${3} (${NEXT_VER_CODE})
 versionCode=${NEXT_VER_CODE}
 author=Peter (@peternmuller)
 description=${4}" >"${6}/module.prop"
