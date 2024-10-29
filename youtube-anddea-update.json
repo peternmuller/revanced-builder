@@ -1,6 +1,6 @@
 {
-  "version": "19.16.39",
-  "versionCode": 14,
-  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/14/youtube-revanced-anddea-magisk-v19.16.39-all.zip",
+  "version": "19.16.39 (19)",
+  "versionCode": 19,
+  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/19/youtube-revanced-anddea-magisk-v19.16.39-all.zip",
   "changelog": "https://raw.githubusercontent.com/peternmuller/revanced-builder/update/build.md"
 }
