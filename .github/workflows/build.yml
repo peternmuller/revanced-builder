@@ -106,6 +106,8 @@ jobs:
           skip_checkout: true
           file_pattern: build.md *-update.json
           commit_message: Bump version ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
+          commit_options: '--signoff'
+          commit_author: peternmuller <pm563838@gmail.com>
 
       - name: Report to Telegram
         env:
