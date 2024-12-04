@@ -16,14 +16,5 @@
         "value": "@android:color/black"
       }
     ]
-  },
-  {
-    "patchName": "Theme",
-    "options": [
-      {
-        "key": "darkThemeBackgroundColor",
-        "value": "@android:color/black"
-      }
-    ]
   }
 ]

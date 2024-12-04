@@ -2,7 +2,7 @@
 
 # Welcome to my ReVanced Builder!
 [![CI](https://github.com/peternmuller/revanced-builder/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/peternmuller/revanced-builder/actions/workflows/ci.yml)
-[![GitHub License](https://img.shields.io/github/license/peternmuller/revanced-builder?logo=gnu&label=License&link=https%3A%2F%2Fgithub.com%2Fpeternmuller%2Frevanced-builder%2Fblob%2Fmain%2FLICENSE)](https://github.com/peternmuller/revanced-builder/blob/main/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/peternmuller/revanced-builder?logo=gnu&label=License&link=https%3A%2F%2Fgithub.com%2Fpeternmuller%2Frevanced-builder%2Fblob%2Frvx%2FLICENSE)](https://github.com/peternmuller/revanced-builder/blob/rvx/LICENSE)
 [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/peternmuller/revanced-builder/total?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij48cGF0aCBkPSJNNC43NSAxNy4yNWEuNzUuNzUgMCAwIDEgLjc1Ljc1djIuMjVjMCAuMTM4LjExMi4yNS4yNS4yNWgxMi41YS4yNS4yNSAwIDAgMCAuMjUtLjI1VjE4YS43NS43NSAwIDAgMSAxLjUgMHYyLjI1QTEuNzUgMS43NSAwIDAgMSAxOC4yNSAyMkg1Ljc1QTEuNzUgMS43NSAwIDAgMSA0IDIwLjI1VjE4YS43NS43NSAwIDAgMSAuNzUtLjc1WiIgZmlsbD0iI0ZGRkZGRiI+PC9wYXRoPjxwYXRoIGQ9Ik01LjIyIDkuOTdhLjc0OS43NDkgMCAwIDEgMS4wNiAwbDQuOTcgNC45NjlWMi43NWEuNzUuNzUgMCAwIDEgMS41IDB2MTIuMTg5bDQuOTctNC45NjlhLjc0OS43NDkgMCAxIDEgMS4wNiAxLjA2bC02LjI1IDYuMjVhLjc0OS43NDkgMCAwIDEtMS4wNiAwbC02LjI1LTYuMjVhLjc0OS43NDkgMCAwIDEgMC0xLjA2WiIgZmlsbD0iI0ZGRkZGRiI+PC9wYXRoPjwvc3ZnPg==&label=Downloads&link=https%3A%2F%2Fgithub.com%2Fpeternmuller%2Frevanced-builder%2Freleases)](https://github.com/peternmuller/revanced-builder/releases)
 
 This ReVanced Builder creates both APKs and [Magisk](https://github.com/topjohnwu/Magisk)/[KernelSU](https://github.com/tiann/KernelSU) modules for [ReVanced](https://github.com/ReVanced) and [ReVanced Extended](https://github.com/inotia00/revanced-patches) versions of YouTube and YouTube Music.
@@ -13,11 +13,11 @@ This ReVanced Builder creates both APKs and [Magisk](https://github.com/topjohnw
 ### Non-root users
 - Install the [ReVanced GmsCore app](https://github.com/ReVanced/GmsCore/releases/latest).
 - Download the APK files you want to install from the [releases page](https://github.com/peternmuller/revanced-builder/releases/latest).
-- (Optional) Import [one of my custom settings file](https://github.com/peternmuller/revanced-builder/tree/main/custom-settings) in your application. [*How to do this?*](https://github.com/peternmuller/revanced-builder/tree/main/custom-settings)
+- (Optional) Import [one of my custom settings file](https://github.com/peternmuller/revanced-builder/tree/rvx/custom-settings) in your application. [*How to do this?*](https://github.com/peternmuller/revanced-builder/tree/rvx/custom-settings)
 - Enjoy!
 ### Root users
 - Download the ZIP files you want to flash from the [releases page](https://github.com/peternmuller/revanced-builder/releases/latest).
-- (Optional) Import [one of my custom settings file](https://github.com/peternmuller/revanced-builder/tree/main/custom-settings) in your application. [*How to do this?*](https://github.com/peternmuller/revanced-builder/tree/main/custom-settings)
+- (Optional) Import [one of my custom settings file](https://github.com/peternmuller/revanced-builder/tree/rvx/custom-settings) in your application. [*How to do this?*](https://github.com/peternmuller/revanced-builder/tree/rvx/custom-settings)
 - (Optional) Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YouTube Music from the Play Store.
 - Enjoy!
 
@@ -30,22 +30,20 @@ You can easily update the ReVanced apps from this builder by using [Obtainium](h
 
 > [!NOTE]
 > In step 5, you need to enter the regular expression that corresponds to the application you want to install:
-> - YouTube ReVanced: `youtube-revanced-v`
-> - YouTube Music ReVanced: `yt-music-revanced-v`
 > - YouTube ReVanced Extended: `youtube-revanced-extended`
 > - YouTube Music ReVanced Extended: `yt-music-revanced-extended`
 > - YouTube ReVanced anddea: `youtube-revanced-anddea`
 > - YouTube Music ReVanced anddea: `yt-music-revanced-anddea`
 
 ## Import custom settings in ReVanced applications
-I personally like my YouTube and YouTube Music applications to be as close as possible to the original look, but less cluttered, easier and less annoying to use. If this is also the case for you, I highly recommend importing [my custom settings files](https://github.com/peternmuller/revanced-builder/tree/main/custom-settings).
+I personally like my YouTube and YouTube Music applications to be as close as possible to the original look, but less cluttered, easier and less annoying to use. If this is also the case for you, I highly recommend importing [my custom settings files](https://github.com/peternmuller/revanced-builder/tree/rvx/custom-settings).
 
 **To do this, go to YouTube Settings &rarr; ReVanced (or ReVanced Extended) &rarr; Miscellaneous (or Advanced Settings for YouTube Music) &rarr; Import&nbsp;/&nbsp;Export settings.**
 
 ## Building Locally
 ### On Termux
 ```bash
-bash <(curl -sSf https://raw.githubusercontent.com/peternmuller/revanced-builder/main/build-termux.sh)
+bash <(curl -sSf https://raw.githubusercontent.com/peternmuller/revanced-builder/rvx/build-termux.sh)
 ```
 ### On Desktop
 ```bash

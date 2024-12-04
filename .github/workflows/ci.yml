@@ -1,6 +1,7 @@
 name: CI
 on:
   workflow_dispatch:
+    branches: [ "rvx" ]
   schedule:
     - cron: "0 */1 * * *"
 
