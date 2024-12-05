@@ -197,7 +197,7 @@ _req() {
 		mv -f "$dlp" "$op"
 	fi
 }
-req() { _req "$1" "$2" --header="User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:108.0) Gecko/20100101 Firefox/108.0"; }
+req() { _req "$1" "$2" --header="User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0"; }
 gh_req() { _req "$1" "$2" --header="$GH_HEADER"; }
 gh_dl() {
 	if [ ! -f "$1" ]; then
@@ -610,7 +610,7 @@ module_prop() {
 name=${2}
 version=v${3} (${NEXT_VER_CODE})
 versionCode=${NEXT_VER_CODE}
-author=j-hc
+author=peternmuller
 description=${4}" >"${6}/module.prop"
 
 	if [ "$ENABLE_MAGISK_UPDATE" = true ]; then echo "updateJson=${5}" >>"${6}/module.prop"; fi
