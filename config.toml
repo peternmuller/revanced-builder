@@ -1,6 +1,32 @@
 enable-magisk-update = true
 parallel-jobs = 1
 
+# ReVanced Extended
+[YouTube-Extended]
+app-name = "YouTube"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+included-patches = "'Visual preferences icons'"
+excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
+
+[YT-Music-Extended]
+app-name = "YT-Music"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+arch = "arm64-v8a"
+build-mode = "both"
+included-patches = "'Hide player overlay filter'"
+excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
+
 # ReVanced
 [YouTube]
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
