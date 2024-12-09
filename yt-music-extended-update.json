@@ -1,6 +1,6 @@
 {
-  "version": "7.16.53 (21)",
-  "versionCode": 21,
-  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/21/yt-music-revanced-extended-magisk-v7.16.53-arm64-v8a.zip",
+  "version": "v7.16.53 (26)",
+  "versionCode": 26,
+  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/26/yt-music-revanced-extended-magisk-v7.16.53-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/peternmuller/revanced-builder/update/build.md"
 }
