@@ -26,24 +26,17 @@ until
 do sleep 1; done
 if [ ! -f ~/.rvmm_"$(date '+%Y%m')" ]; then
 	pr "Setting up environment..."
-	yes "" | pkg update -y && pkg install -y openssl git wget jq openjdk-17 zip
+	yes "" | pkg update -y && pkg install -y openssl git curl jq openjdk-17 zip
 	: >~/.rvmm_"$(date '+%Y%m')"
 fi
 mkdir -p /sdcard/Download/revanced-builder/
 
-if [ ! -d revanced-builder ]; then
-	pr "Cloning revanced-builder."
-	git clone https://github.com/peternmuller/revanced-builder --depth 1
-	cd revanced-builder
-	sed -i '/^enabled.*/d; /^\[.*\]/a enabled = false' config.toml
-	grep -q 'revanced-builder' ~/.gitconfig 2>/dev/null \
-		|| git config --global --add safe.directory ~/revanced-builder
-else
-	cd revanced-builder
+if [ -d revanced-builder ] || [ -f config.toml ]; then
+	if [ -d revanced-builder ]; then cd revanced-builder; fi
 	pr "Checking for revanced-builder updates"
 	git fetch
 	if git status | grep -q 'is behind\|fatal'; then
-		pr "revanced-builder already is not synced with upstream."
+		pr "revanced-builder is not synced with upstream."
 		pr "Cloning revanced-builder. config.toml will be preserved."
 		cd ..
 		cp -f revanced-builder/config.toml .
@@ -52,10 +45,17 @@ else
 		mv -f config.toml revanced-builder/config.toml
 		cd revanced-builder
 	fi
+else
+	pr "Cloning revanced-builder."
+	git clone https://github.com/peternmuller/revanced-builder --depth 1
+	cd revanced-builder
+	sed -i '/^enabled.*/d; /^\[.*\]/a enabled = false' config.toml
+	grep -q 'revanced-builder' ~/.gitconfig 2>/dev/null ||
+		git config --global --add safe.directory ~/revanced-builder
 fi
 
-[ -f ~/storage/downloads/revanced-builder/config.toml ] \
-	|| cp config.toml ~/storage/downloads/revanced-builder/config.toml
+[ -f ~/storage/downloads/revanced-builder/config.toml ] ||
+	cp config.toml ~/storage/downloads/revanced-builder/config.toml
 
 if ask "Open rvmm-config-gen to generate a config?"; then
 	am start -a android.intent.action.VIEW -d https://j-hc.github.io/rvmm-config-gen/
