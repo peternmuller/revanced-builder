@@ -13,6 +13,9 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 included-patches = "'Visual preferences icons'"
 excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
+patcher-args = """\
+  -OdarkThemeBackgroundColor \
+  """
 
 [YT-Music-Extended]
 app-name = "YT-Music"
@@ -32,6 +35,9 @@ excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding na
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 build-mode = "both"
+patcher-args = """\
+  -OdarkThemeBackgroundColor \
+  """
 
 [YT-Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
