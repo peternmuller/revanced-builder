@@ -11,7 +11,7 @@ integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
-included-patches = "'Visual preferences icons'"
+included-patches = "'Visual preferences icons' 'Return YouTube Username'"
 excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
 patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black"
 
