@@ -12,33 +12,31 @@ This ReVanced Builder creates both APKs and [Magisk](https://github.com/topjohnw
 ## Installation
 ### Non-root users
 - Install the [ReVanced GmsCore app](https://github.com/ReVanced/GmsCore/releases/latest).
-- Download the APK files you want to install from the [releases page](https://github.com/peternmuller/revanced-builder/releases/latest).
-- (Optional) Import [one of my custom settings file](https://github.com/peternmuller/revanced-builder/tree/main/custom-settings) in your application. [*How to do this?*](https://github.com/peternmuller/revanced-builder/tree/main/custom-settings)
+- Download the APK files you want to install from the [releases page](https://github.com/peternmuller/revanced-builder/releases/latest), or follow the installation steps [here](https://github.com/peternmuller/revanced-builder?tab=readme-ov-file#easily-install-or-update-revanced-apps-with-obtainium).
+- (Optional) Import [one of my custom settings files](https://github.com/peternmuller/revanced-builder/tree/main/custom-settings) into your application. [*How to do this?*](https://github.com/peternmuller/revanced-builder?tab=readme-ov-file#import-custom-settings-in-revanced-applications)
 - Enjoy!
 ### Root users
 - Download the ZIP files you want to flash from the [releases page](https://github.com/peternmuller/revanced-builder/releases/latest).
-- (Optional) Import [one of my custom settings file](https://github.com/peternmuller/revanced-builder/tree/main/custom-settings) in your application. [*How to do this?*](https://github.com/peternmuller/revanced-builder/tree/main/custom-settings)
+- (Optional) Import [one of my custom settings files](https://github.com/peternmuller/revanced-builder/tree/main/custom-settings) into your application. [*How to do this?*](https://github.com/peternmuller/revanced-builder?tab=readme-ov-file#import-custom-settings-in-revanced-applications)
 - (Optional) Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YouTube Music from the Play Store.
 - Enjoy!
 
-## Easily update ReVanced apps with Obtainium
-You can easily update the ReVanced apps from this builder by using [Obtainium](https://github.com/ImranR98/Obtainium) which allows you to install and update apps directly from their releases pages, and receive notifications when new releases are made available.
+## Easily install or update ReVanced apps with Obtainium
+You can easily install or keep your ReVanced apps up to date by using [Obtainium](https://github.com/ImranR98/Obtainium), which lets you install and update apps directly from the source and receive notifications when new releases are available.
 
 #### Here is a quick tutorial on how to add them to Obtainium:
 
-<img width="2160" alt="obtainium_quick_tutorial" src="https://github.com/user-attachments/assets/3f0af16e-328e-4831-99c5-9253192403c7">
+<img width="2160" alt="obtainium_quick_tutorial" src="https://github.com/user-attachments/assets/345e0536-529e-4f64-8b0b-ab44ca9e285d">
 
 > [!NOTE]
-> In step 5, you need to enter the regular expression that corresponds to the application you want to install:
+> In step 3, you need to enter the regular expression that corresponds to the application you want to install:
 > - YouTube ReVanced: `youtube-revanced-v`
 > - YouTube Music ReVanced: `yt-music-revanced-v`
 > - YouTube ReVanced Extended: `youtube-revanced-extended`
 > - YouTube Music ReVanced Extended: `yt-music-revanced-extended`
-> - YouTube ReVanced anddea: `youtube-revanced-anddea`
-> - YouTube Music ReVanced anddea: `yt-music-revanced-anddea`
 
 ## Import custom settings in ReVanced applications
-I personally like my YouTube and YouTube Music applications to be as close as possible to the original look, but less cluttered, easier and less annoying to use. If this is also the case for you, I highly recommend importing [my custom settings files](https://github.com/peternmuller/revanced-builder/tree/main/custom-settings).
+I personally like my YouTube and YouTube Music applications to be as close as possible to the original look, but less cluttered, easier, and less annoying to use. If you feel the same, I highly recommend importing [my custom settings files](https://github.com/peternmuller/revanced-builder/tree/main/custom-settings).
 
 **To do this, go to YouTube Settings &rarr; ReVanced (or ReVanced Extended) &rarr; Miscellaneous (or Advanced Settings for YouTube Music) &rarr; Import&nbsp;/&nbsp;Export settings.**
 
@@ -57,8 +55,7 @@ cd revanced-builder
 ## Credits
 - [j-hc](https://github.com/j-hc) for creating this amazing builder.
 - [Kevinr99089](https://github.com/kevinr99089) for providing assistance with the builder.
-- [KitsunedFox](https://github.com/KitsunedFox) for the idea of the Obtainium tutorial.
-- And of course, the [ReVanced](https://github.com/ReVanced) team, [inotia00](https://github.com/inotia00) and [anddea](https://github.com/anddea) for their work on the ReVanced apps!
+- And of course, the [ReVanced](https://github.com/ReVanced) team and [inotia00](https://github.com/inotia00) for their work on the ReVanced apps!
 
 ## License
     Copyright (C) 2024  Peter Noël Muller
