@@ -10,7 +10,7 @@ integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
-included-patches = "'Visual preferences icons' 'Return YouTube Username'"
+included-patches = "'Return YouTube Username'"
 excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
 patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black"
 
@@ -23,7 +23,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 arch = "arm64-v8a"
 build-mode = "both"
-included-patches = "'Hide player overlay filter'"
+included-patches = "'Disable music video in album' 'Hide player overlay filter' 'Return YouTube Username'"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 
 # ReVanced
