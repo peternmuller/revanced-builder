@@ -1,6 +1,6 @@
 {
-  "version": "19.47.53 (patches 5.8.1)",
-  "versionCode": 73,
-  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/73/youtube-revanced-extended-magisk-v19.47.53-all.zip",
+  "version": "19.47.53 (patches 5.9.1)",
+  "versionCode": 76,
+  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/76/youtube-revanced-extended-magisk-v19.47.53-all.zip",
   "changelog": "https://raw.githubusercontent.com/peternmuller/revanced-builder/update/build.md"
 }
