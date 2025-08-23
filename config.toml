@@ -25,6 +25,7 @@ arch = "arm64-v8a"
 build-mode = "both"
 included-patches = "'Disable music video in album' 'Hide player overlay filter' 'Return YouTube Username'"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
+patcher-args = "-e 'Dark theme' -OdarkThemeBackgroundColor=@android:color/black"
 
 # ReVanced
 [YouTube]
