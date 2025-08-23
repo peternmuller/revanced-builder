@@ -41,3 +41,27 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 arch = "arm64-v8a"
 build-mode = "both"
+
+# ReVanced Extended by anddea
+[YouTube-anddea]
+app-name = "YouTube"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced anddea"
+build-mode = "both"
+excluded-patches = "'Custom Shorts action buttons' 'Force player buttons background'"
+patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/black"
+
+[YT-Music-anddea]
+app-name = "YT-Music"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced anddea"
+arch = "arm64-v8a"
+build-mode = "both"
+included-patches = "'Disable music video in album' 'Hide player overlay filter'"
+patcher-args = "-e 'Dark theme' -OdarkThemeBackgroundColor=@android:color/black"
