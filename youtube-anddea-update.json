@@ -1,6 +1,6 @@
 {
-  "version": "19.47.53 (patches 3.12.0)",
-  "versionCode": 79,
-  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/79/youtube-revanced-anddea-magisk-v19.47.53-all.zip",
+  "version": "19.47.53 (patches 3.13.0)",
+  "versionCode": 84,
+  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/84/youtube-revanced-anddea-magisk-v19.47.53-all.zip",
   "changelog": "https://raw.githubusercontent.com/peternmuller/revanced-builder/update/build.md"
 }
