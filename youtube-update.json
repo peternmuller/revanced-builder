@@ -1,6 +1,6 @@
 {
-  "version": "20.13.41 (patches 5.38.0)",
-  "versionCode": 83,
-  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/83/youtube-revanced-magisk-v20.13.41-all.zip",
+  "version": "20.13.41 (patches 5.39.0)",
+  "versionCode": 85,
+  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/85/youtube-revanced-magisk-v20.13.41-all.zip",
   "changelog": "https://raw.githubusercontent.com/peternmuller/revanced-builder/update/build.md"
 }
