@@ -1,6 +1,6 @@
 {
-  "version": "8.10.52 (patches 5.42.0)",
-  "versionCode": 90,
-  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/90/yt-music-revanced-magisk-v8.10.52-arm64-v8a.zip",
+  "version": "8.10.52 (patches 5.42.1)",
+  "versionCode": 91,
+  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/91/yt-music-revanced-magisk-v8.10.52-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/peternmuller/revanced-builder/update/build.md"
 }
