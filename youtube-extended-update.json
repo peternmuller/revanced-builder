@@ -1,6 +1,6 @@
 {
-  "version": "20.05.46 (patches 5.12.1)",
-  "versionCode": 88,
-  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/88/youtube-revanced-extended-magisk-v20.05.46-all.zip",
+  "version": "20.05.46 (patches 5.13.1)",
+  "versionCode": 97,
+  "zipUrl": "https://github.com/peternmuller/revanced-builder/releases/download/97/youtube-revanced-extended-magisk-v20.05.46-all.zip",
   "changelog": "https://raw.githubusercontent.com/peternmuller/revanced-builder/update/build.md"
 }
