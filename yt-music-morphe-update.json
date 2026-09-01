@@ -1,6 +1,6 @@
 {
-  "version": "9.15.51 (patches 1.40.0.mpp)",
-  "versionCode": 158,
-  "zipUrl": "https://github.com/peternmuller/revanced-morphe-builder/releases/download/158/yt-music-morphe-module-v9.15.51-arm64-v8a.zip",
+  "version": "9.15.51 (patches 1.41.0.mpp)",
+  "versionCode": 159,
+  "zipUrl": "https://github.com/peternmuller/revanced-morphe-builder/releases/download/159/yt-music-morphe-module-v9.15.51-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/peternmuller/revanced-morphe-builder/update/build.md"
 }
